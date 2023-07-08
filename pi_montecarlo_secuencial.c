@@ -28,7 +28,7 @@ int main(){
         
         x = ((float)rand()/(float)(RAND_MAX)) * 2;
         y = ((float)rand()/(float)(RAND_MAX)) * 2;
-        //printf("Un valor de x es: %f\n", x);
+        
         if (sqrt(x*x + y*y) <= R)
             P_d++;
     }
