@@ -6,14 +6,13 @@
 /* Área de un cuadrado (A_s): (2*r)^2 = 4*r^2 (Notar que el radio seria la mitad de su ancho)*/
 /* Área de un círculo (A_c): pi*(r^2)*/
 /* Razón de las áreas: A_c/A_s = (pi * r^2)/(4* r^2) = pi/4*/
-/* Para calcular pi se utilizará el método de montecarlo el cual indica
-    que la razon de puntos generados aleatoriamente dentro y fuera de la circunferencia
-    sigue la misma razon de las áreas mencionadas.
-    Es decir: P_d/P_a = A_c/A_s = pi/4 
-    Entonces: pi = (4* Pd)/P_a. */
+
+/* 
+    P_d/N = A_c/A_s = pi/4 => pi = (4* Pd)/N 
+*/
     
-/*Ecuacion de la circunferencia: x^2 + y^2 = r^2 
-Es decir, un punto P1 = (a,b) estará adentro sii a^2 + b^2 <= r^2*/
+/* Ecuacion de la circunferencia: x^2 + y^2 = r^2 
+Es decir, un punto P1 = (a,b) estará adentro sii a^2 + b^2 <= r^2 */
 
 #define R 2
 #define CANT 1000000
