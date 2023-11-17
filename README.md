@@ -11,7 +11,7 @@ dentro de la circunferencia (P_d).
 
 Razón de las áreas: A_c/A_s = (pi * r^2)/(4* r^2) = pi/4.
 
-Tenemos entonces que la razón de las áeas es igual a la razón
+Tenemos entonces que la razón de las áreas es igual a la razón
 entre los puntos que "caen" dentro de la circunferencia y los totales.
 
 Es decir: P_d/N = A_c/A_s = pi/4. 
